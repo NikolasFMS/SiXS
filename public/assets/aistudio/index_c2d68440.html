@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111c19"><meta name="description" content="Офлайн-помощник для настольной игры SiXeS / Совпадение">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css"><title>Совпадение — SiXeS</title>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-mark">6</span><span>СОВпадение<small>помощник для SiXeS</small></span></a><div class="top-actions"><button id="languageToggle" class="language-toggle" aria-label="Switch language">EN</button><button id="rulesTop" class="icon-button" aria-label="Правила">?</button></div></header>
+  <main id="app" class="shell"></main>
+  <dialog id="rulesDialog"><div class="dialog-head"><div><p class="eyebrow">КАК ИГРАТЬ</p><h2>Правила за минуту</h2></div><button class="icon-button" data-close aria-label="Закрыть">×</button></div><div class="rules-body">
+    <p><b>Цель.</b> После шести раундов набрать больше всех очков. Игрокам нужны бумага и ручки; приложение показывает задания, ведёт таймер и считает результат.</p>
+    <div class="rule-row"><span class="type-badge owl">Совы</span><p>Запишите 6 ассоциаций. За каждую совпавшую с ответом другого игрока — 1 очко. Все 6 совпали — ещё 1 бонус.</p></div>
+    <div class="rule-row"><span class="type-badge lark">Жаворонки</span><p>Запишите 6 подходящих, но редких ответов. За каждую уникальную — 1 очко. Ни одного совпадения — ещё 1 бонус.</p></div>
+    <div class="rule-row"><span class="type-badge blitz">Блиц</span><p>Запишите по одному ответу на каждую из 6 категорий. Совпадения дают очки; все 6 совпали — бонусное очко.</p></div>
+    <p>Порядок: <b>1 и 4 — Совы · 2 и 5 — Жаворонки · 3 и 6 — Блиц.</b> Ведущий меняется по часовой стрелке. Не включайте в ответ само название категории и однокоренные слова. В Жаворонках ответ должен быть именно примером из категории, а не свободной ассоциацией. Перед началом выберите строгость совпадений: точные формы, синонимы или также однокоренные слова. Спорные случаи решаются голосованием.</p>
+    <p class="muted">Подсказка для Жаворонков: ответ должен действительно относиться к категории. В конце сложите очки; при ничьей выигрывает игрок с большим числом бонусов.</p>
+    <p class="source-note">Основано на русских правилах «Совпадение» (SiXeS), версия 1.0.</p></div></dialog>
+  <script src="deck-data.js" defer></script><script src="deck-data-en.js" defer></script><script src="app.js" defer></script>
+</body></html>

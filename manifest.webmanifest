@@ -1,0 +1,20 @@
+{
+  "name": "Совпадение — SiXeS Помощник",
+  "short_name": "SiXeS",
+  "description": "Офлайн-помощник для настольной игры «Совпадение» (SiXeS). Карточки, таймер, правила и подсчёт очков.",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#13231d",
+  "theme_color": "#13231d",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

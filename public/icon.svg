@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="18" fill="#111c19"/>
+  <!-- Stylized F / 6 shape in warm gold -->
+  <path d="M20 16h24v7H29v7h13v7H29v14h-9z" fill="#e3c174"/>
+  <circle cx="46" cy="45" r="7" fill="#89a595"/>
+</svg>

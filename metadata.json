@@ -1,0 +1,6 @@
+{
+  "name": "Совпадение — SiXeS Помощник",
+  "description": "Офлайн-помощник для настольной игры «Совпадение» (SiXeS). Таймер, карточки заданий, пошаговые подсказки и подсчёт очков для игры на листочках.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
