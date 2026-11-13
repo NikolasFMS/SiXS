@@ -1,0 +1,31 @@
+{
+  "name": "sovpadenie-sixes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist --dotfiles",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "node --check src/main.js && node --check src/app.js && node --check src/data/decks.js && node --check src/utils/audio.js && node --check src/utils/i18n.js && node --check src/utils/storage.js && node --check src/utils/wakeLock.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}
